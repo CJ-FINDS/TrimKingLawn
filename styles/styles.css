@@ -1,0 +1,88 @@
+body {
+	background-color: #fff;
+	font-family: Verdana, Helvetica, sans-serif;
+	color: #3d3d3d;
+	font-size: 16px;
+	width:100%;
+	max-width: 980px;
+	margin:0 auto;
+	background: #EAE9E5;
+}
+h1	{color:#333333; font-size:1.2em;}
+h2	{color:#666600; font-size:1.2em;}
+h3	{color:#999999; font-size:1.2em;}
+
+a { color:#009C5C; font-weight:bold; text-decoration: none; font-size: 18px; font-weight:700;}
+a:hover { text-decoration: underline; }
+
+.container
+{
+    position:relative;
+    background:#EAE9E5;
+    width:100%;
+    margin: 0 auto;
+    padding:0;
+}
+
+.estimate
+{
+    position:relative;
+    background:#EAE9E5;
+    width:100%;
+    margin: 0 auto;
+    padding:0;
+}
+
+.phone {width: 100%; text-align: center;}
+
+/* FREE ESTIMATE FORM */
+.FreeEstimate {
+	background: url(../images/freeestimate.gif) no-repeat left top;
+	height:260px;
+	width:290px;
+	position:relative;
+	margin-top: 120px;
+	margin-bottom:10px;
+	float:right;
+}
+.FreeEstimateForm {
+	background: url(../images/freeestimate.gif) no-repeat left top;
+	height:260px;
+	width:290px;
+	position:relative;
+	margin-top: 10px;
+	margin-bottom:30px;
+	text-align:left;
+}	
+.FreeEstimateForm #formFields {
+	border: none;
+	position:relative;
+	top:50px;
+	margin-left: 20px;
+	padding: 20px 0 20px 0;
+}
+.FreeEstimateForm .textboxes {
+	margin: 5px 0 5px 0;
+}
+.FreeEstimateForm .subBtn {
+	position:relative;
+	bottom:10px;
+	right:15px;
+	float:right;
+}
+.FreeEstimateForm p  {
+	color:#333;
+	font-weight:bold;
+}
+.FreeEstimateForm label {
+	color: #333;
+	font-weight:bold;
+}
+.FreeEstimateForm li{
+	display:block;
+	list-style-type: none;
+	margin:0;
+	
+}
+
+/* FREE ESTIMATE END */
